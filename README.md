@@ -11,6 +11,8 @@ This repository contains the following four major types of files:
 4. **difgene_abundance_64_5761_test.txt**
    The feature matrix for the validation cohort, containing 5,761 features across 64 samples.
 ## Note
-Due to GitHub's 25 MB file size limit, large matrix files have been split into smaller parts and compressed for upload. Please follow the steps below to decompress and use these files:
-Decompression Instructions
-`cat difgene_abundance_755_55292_train.tar.gz* |tar zx`
+Due to GitHub's 25 MB file size limit, large matrix files have been split into smaller parts and compressed for upload. 
+### Decompression Instructions
+```
+cat difgene_abundance_755_55292_train.tar.gz* |tar zx
+```
